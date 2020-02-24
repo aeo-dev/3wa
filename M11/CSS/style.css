@@ -1,0 +1,279 @@
+
+/********************** home **********************/
+.contener{
+    margin: 0 auto;
+    background-color: rgb(252, 252, 252);
+    text-align: center;
+    color: rgb(152, 152, 152);
+    font-size: 18px;
+}
+.logo:hover{
+    animation: bounce 0.35s ease infinite alternate; 
+    animation-delay: 0.1s;
+} 
+@keyframes bounce{ 
+    from {transform: translateY(0);} to {transform: translateY(-20px);} 
+}
+.nav{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.nav ul{
+    list-style: none;
+    transition-property: all;
+    transition-duration: 1s;
+    margin-top: 2em;
+    font-weight: bold;
+}
+.nav ul:hover{
+    color: rgb(235, 43, 92);
+    transform: translateY(10px);
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(33, 62, 78);
+
+}
+
+.header_img{
+    text-align: center;
+    line-height: 25px;
+    background-image: url(../image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
+    margin: auto;
+}
+.header_img p, .header_img h1{
+    color: white;
+    padding: 20px;
+}
+.section1 fieldset{
+    background-color: rgb(251, 139, 155);
+    border: 1px solid rgb(251, 139, 155);
+    padding: 10px 5px 10px 5px;
+    text-align: start;
+}
+fieldset input{
+    color: grey;
+    background-color: rgb(251, 139, 155);
+    border: 1px solid rgb(251, 139, 155);
+    padding: 5px 0 5px 15px;
+}
+h2{
+    color: rgb(33, 62, 78);
+    border-top: 1px dashed rgb(33, 62, 78);
+    border-left: 1px dashed rgb(33, 62, 78);
+    border-right: 1px dashed rgb(33, 62, 78);
+    padding-top: 20px;
+    padding-bottom: 25px;
+    margin-top: 3em;
+}
+i{
+    color: rgb(251, 139, 155);
+    padding-bottom: 10px;
+}
+span{
+    color: rgb(251, 139, 155);
+    font-weight: bold;
+}
+.solution p, .hebergement p{
+    text-align: start;
+}
+.solution{
+    display: flex;
+    justify-content: space-around;
+}
+.hebergement{
+    display: flex;
+    justify-content: space-around;
+}
+.solution div, .hebergement div{
+    margin: 0 1em 0 1em;
+}
+.section2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+footer ul{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top: 40px;
+}
+footer{
+    background-color: rgb(33, 62, 78);
+    color: grey;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+}
+#img{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+/************************* mutualisé *****************************/
+.color_mutu i{
+    color:rgb(33, 62, 78);
+}
+.color_mutu li{
+    color:rgb(251, 139, 155);
+}
+.mutualise{
+    display: flex;
+    justify-content: space-between;
+}
+.div1, .div2, .div3{
+    border: 1px dashed rgb(33, 62, 78);
+    width: 30%;
+}
+.div1 div, .div2 div, .div3 div{
+    background-color:rgb(33, 62, 78);
+    color: white;
+    margin: 1em 1em 1em 1em;
+    padding: 0.5em 0 0.5em 0;
+}
+.div1 div h3, .div2 div h3, .div3 div h3{
+    color: white;
+}
+.div1 h3, .div2 h3, .div3 h3{
+    color: dimgrey;
+}
+.div1 ul, .div2 ul, .div3 ul{
+    text-align: start;
+    line-height: 2em;
+}
+.div1 button, .div2 button, .div3 button{
+    color: white;
+    background-color: rgb(251, 139, 155);
+    border: 1px solid rgb(251, 139, 155);
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 1em;
+    width: 90%;
+}
+
+/************************* dedié *****************************/
+.color_dedie i{
+    color:rgb(33, 62, 78);
+}
+.color_dedie li{
+    color:rgb(251, 139, 155);
+}
+.dedie{
+    display: flex;
+    justify-content: space-between;
+}
+
+/************************* cloud *****************************/
+.color_cloud i{
+    color:rgb(33, 62, 78);
+}
+.color_cloud li{
+    color:rgb(251, 139, 155);
+}
+.cloud{
+    display: flex;
+    justify-content: space-between;
+}
+
+/************************* contact *****************************/
+.color_contact i{
+    color:rgb(33, 62, 78);
+}
+.color_contact li{
+    color:rgb(251, 139, 155);
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+}
+.contact ul{
+    list-style: none;
+    text-align: center;
+    font-size: 1.5em;
+}
+.contact .div1, .contact .div2, .contact .div3{
+    border: none;
+}
+.contact .div1 .li, .contact .div2 .li, .contact .div3 .li{
+    border-bottom: 1px dashed rgb(251, 139, 155);
+}
+.contact p{
+    width: 50%;
+    margin: auto;
+}
+.span1{
+    font-weight: normal;
+}
+
+
+
+@media all and (max-width: 768px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .solution{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+    }
+    .hebergement{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mutualise{
+        display: flex;
+        flex-direction: column;
+    }
+    .mutualise .div1, .mutualise .div2, .mutualise .div3{
+        width: 100%;
+        margin: 1em 0 1em 0;
+    }
+
+    .dedie{
+        display: flex;
+        flex-direction: column;
+    }
+    .dedie .div1, .dedie .div2, .dedie .div3{
+        width: 100%;
+        margin: 1em 0 1em 0;
+    }
+
+    .cloud{
+        display: flex;
+        flex-direction: column;
+    }
+    .cloud .div1, .cloud .div2, .cloud .div3{
+        width: 100%;
+        margin: 1em 0 1em 0;
+    }
+
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact .div1, .contact .div2, .contact .div3{
+        width: 100%;
+        margin: 1em 0 1em 0;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: column;
+    }
+    footer ul li{
+        padding: 1em;
+    }
+}
+

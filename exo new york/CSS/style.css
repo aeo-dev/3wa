@@ -1,0 +1,20 @@
+body{
+    background-color: #eeeeee;
+    width: 600px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: Helvetica;
+}
+div{
+    background-color: white;
+    border-bottom: 3px solid #cccccc;
+    height : 25px;
+}
+h2{
+    text-indent: 0.2em;
+}
+p{
+    text-align: justify;
+    font-weight: 100;
+}

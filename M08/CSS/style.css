@@ -1,0 +1,220 @@
+body{
+    background-color: rgb(242,241,244);
+}
+.contener{
+    max-width: 80%;
+    font-size: 1.2rem;
+    margin: auto;
+}
+.div_logo{
+    text-align: center;
+}
+.logo{
+    width: 120px;
+    height: 120px;
+}
+.img{
+    /*width: 100%;*/
+}
+h1{
+    font-size: 2rem;
+    color: rgb(48, 168, 148);
+}
+h2{
+    font-size: 1.5rem;
+    color: rgb(48, 168, 148);
+}
+.menu{
+    background-color: rgb(48, 168, 148);
+    padding: 8px;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+section{
+    display: flex;
+}
+.div1{
+    max-width: 70%;
+    color: gray;
+    padding-right: 20px;
+}
+.div2{
+    background-color: rgb(184, 220, 177);
+    color: rgb(110,142,109);
+    max-width: 30%;
+    padding: 0 20px 0 20px;
+}
+
+
+
+hr{
+    border: 1px solid rgb(48, 168, 148);
+}
+
+footer{
+    color: gray;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    
+}
+#img{
+    margin-top: 10px;
+    width: 40px ;
+    height: 40px ;
+}
+
+@media all and (max-width: 768px){
+    body{
+        background-color: rgb(242,241,244);
+    }
+    .contener{
+        max-width: 100%;
+        font-size: 1.2rem;
+        margin: auto;
+    }
+    .div_logo{
+        text-align: center;
+    }
+    .logo{
+        width: 120px;
+        height: 120px;
+    }
+    .img{
+        /*width: 100%;*/
+    }
+    h1{
+        font-size: 2rem;
+        color: rgb(48, 168, 148);
+    }
+    h2{
+        font-size: 1.5rem;
+        color: rgb(48, 168, 148);
+    }
+    .menu{
+        background-color: rgb(48, 168, 148);
+        padding: 8px;
+    }
+    .menu ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: white;
+    }
+    ul li{
+        padding: 15px;
+        text-align: center;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .div1{
+        max-width: 100%;
+        color: gray;
+        padding: 0 20px 0 20px;
+    }
+    .div2{
+        background-color: rgb(184, 220, 177);
+        color: rgb(110,142,109);
+        padding: 0 20px 0 20px;
+        margin: 0 10px 0 10px;
+        max-width: 100%;
+    }
+    
+    hr{
+        border: 1px solid rgb(48, 168, 148);
+    }
+    footer{
+        color: gray;
+        height: fit-content;
+        width: 100%;
+        text-align: center;
+    }
+    #img{
+        margin-top: 10px;
+        width: 40px ;
+        height: 40px ;
+    }
+}
+
+@media all and (max-width: 480px){
+    body{
+        background-color: rgb(242,241,244);
+    }
+    .contener{
+        max-width: 100%;
+        font-size: 1.2rem;
+        margin: auto;
+    }
+    .div_logo{
+        text-align: center;
+    }
+    .logo{
+        width: 120px;
+        height: 120px;
+    }
+    .img{
+        /*width: 100%;*/
+    }
+    h1{
+        font-size: 2rem;
+        color: rgb(48, 168, 148);
+    }
+    h2{
+        font-size: 1.5rem;
+        color: rgb(48, 168, 148);
+    }
+    .menu{
+        background-color: rgb(48, 168, 148);
+        padding: 8px;
+    }
+    .menu ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        color: white;
+    }
+    ul li{
+        padding: 15px;
+        text-align: center;
+    }
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    .div1{
+        max-width: 100%;
+        color: gray;
+        padding: 0 20px 0 20px;
+    }
+    .div2{
+        /*background-color: rgb(184, 220, 177);
+        color: rgb(110,142,109);
+        padding: 0 20px 0 20px;
+        margin: 0 10px 0 10px;
+        max-width: 100%;*/
+        display: none;
+    }
+    
+    hr{
+        border: 1px solid rgb(48, 168, 148);
+    }
+    footer{
+        color: gray;
+        height: fit-content;
+        width: 100%;
+        text-align: center;
+    }
+    #img{
+        margin-top: 10px;
+        width: 40px ;
+        height: 40px ;
+    }
+}

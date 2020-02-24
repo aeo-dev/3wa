@@ -1,0 +1,246 @@
+.contener{
+    margin: 0 auto;
+    background-image: url(../image/fond.png);
+    text-align: center;
+    color: rgb(152, 152, 152);
+    font-size: 18px;
+}
+header{
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img, .logo h1{
+    width: 5em;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.logo:hover img{
+    width: 6.3em;
+}
+.logo:hover h1{
+    color: rgb(235, 43, 92);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.nav ul{
+    list-style: none;
+    transition-property: all;
+    transition-duration: 1s;
+}
+.nav ul:hover{
+    color: rgb(235, 43, 92);
+    transform: translateY(10px);
+}
+.header_img{
+    text-align: center;
+    line-height: 25px;
+    background-image: url(../image/bg_header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
+    margin: auto;
+}
+.header_img p, .header_img h1{
+    color: white;
+    padding: 20px;
+}
+.header_img button{
+    color: white;
+    background-color: deeppink;
+    border: 1px solid deeppink;
+    border-radius: 5%;
+    padding: 5px 10px 5px 10px;
+}
+h1{
+    margin-left: 10px;
+}
+h2{
+    color: rgb(235, 43, 92);
+    border-bottom: 2px solid rgba(152, 152, 152, 0.1);
+    padding-bottom: 15px;
+    margin-top: 6em;
+}
+span{
+    color: rgb(235, 43, 92);
+    font-weight: bold;
+}
+.competence{
+    display: flex;
+    justify-content: space-around;
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+}
+.service div, .competence div{
+    margin: 0 1em 0 1em;
+}
+.section2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.service i{
+    border: 1px solid rgb(152, 152, 152);
+    border-radius: 50%;
+    padding: 20px;
+}
+.service i{
+    animation: bounce 0.35s ease infinite alternate; 
+    animation-delay: 0.1s;
+} 
+@keyframes bounce{ 
+    from {transform: translateY(0);} to {transform: translateY(-20px);} 
+}
+.div1, .div2, .div3, .div4{
+    text-align: start;
+}
+.div1 img, .div3 img{
+    float: right;
+    width: 50%;
+    padding-left: 0.5em;
+}
+.div2 img, .div4 img{
+    float: left;
+    width: 50%;
+    padding-right: 0.5em;
+}
+a{
+    text-decoration: none;
+    margin-left: 1em;
+}
+.fa-plus-circle{
+    color: rgb(235, 43, 92);
+}
+.contact{
+    text-align: center;
+}
+.contact p{
+    text-align: start;
+}
+.contact fieldset{
+    margin-bottom: 15px;
+    text-align: start;
+}
+fieldset{
+    border-radius: 25px;
+}
+.fieldset{
+    display: flex;
+}
+.fieldset fieldset{
+    width: 50%;
+}
+fieldset img{
+    vertical-align: middle;
+}
+input{
+    border: none;
+    outline: none;
+   /* font-size: 2em; */
+    /* height: 30px; */
+    background-color: transparent;
+    vertical-align: middle;
+}
+.button1{
+    color: white;
+    background-color: rgb(235, 43, 92);
+    padding: 10px 25px 10px 25px;
+    border: 1px solid rgb(235, 43, 92);
+}
+.button2{
+    color: white;
+    background-color: rgb(152, 152, 152);
+    padding: 10px 25px 10px 25px;
+    border: 1px solid rgb(152, 152, 152);
+}
+footer{
+    color: grey;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+}
+#img{
+    margin-top: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+@media all and (max-width: 768px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav{
+        display: flex;
+        justify-content: space-around;
+    }
+    .competence{
+        display: flex;
+        flex-direction: column;
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width: 480px){
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .competence{
+        display: flex;
+        flex-direction: column;
+    }
+    .service{
+        display: flex;
+        flex-direction: column;
+    }
+    .div1 img, .div2 img, .div3 img, .div4 img{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        float: none;
+    }
+    .fieldset{
+        display: flex;
+        flex-direction: column;
+    }
+    .fieldset fieldset{
+        width: 100%;
+    }
+    .contact fieldset{
+        width: 100%;
+    }
+}

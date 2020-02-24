@@ -1,0 +1,70 @@
+body{
+    background-image: url(../Image/fond.png);
+    max-width: 750px;
+    margin: auto;
+}
+.img1{
+    float: left;
+    width: 200px;
+    height: 80px;
+    padding-right: 10px;
+}
+.en_tete{
+    display: inline-block;
+    background-color: #B8CB21;
+    width: 100%;
+    margin-bottom: -10px;
+    padding: 20px 0 20px 0;
+}
+.nav{
+    float: right;
+    margin-right: 30px;
+}
+.ul li{
+    float: right;
+    list-style: none;
+    margin: 25px;
+    color: darkslategray;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+}
+
+h3{
+    color: #B8CB21;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+}
+#h3{
+    margin-top: 50px;
+}
+.fa{
+    margin-right: 10px;
+}
+.body{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.body::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.bouton a{
+    float: right;
+    background-color: #B8CB21;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    font-size: small;
+}
+.img2{
+    width: 80px;
+    height: 80px;
+}

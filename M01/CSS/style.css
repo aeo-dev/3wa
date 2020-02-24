@@ -1,0 +1,33 @@
+*
+{
+    font-family: Arial, monospace;
+}
+.grey{
+    color: dimgray;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+.green{
+    color: green;
+}
+.background_red{
+    background-color: red;
+}
+.background_blue{
+    background-color: blue;
+}
+.background_green{
+    background-color: green;
+}
+.img{
+    height: 60px;
+    width: 60px;
+}
+footer{
+    text-align: center;
+    font-size: small;
+}
